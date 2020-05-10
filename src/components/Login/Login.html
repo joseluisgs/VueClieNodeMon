@@ -1,0 +1,15 @@
+<div class='ui two column centered grid'>
+  <div class='column'>
+    <form class='ui form' v-on:submit.prevent='onSubmit'>
+      <div class='required field'>
+        <label>Email</label>
+        <input v-model='email' type='email' name='email' placeholder='tu@correo.com' required>
+      </div>
+      <div class='required field'>
+        <label>Password</label>
+        <input v-model='password' type='password' name='password' placeholder='' required>
+      </div>
+      <button class='ui button' type='submit'>Acceder</button>
+    </form>
+  </div>
+</div>
